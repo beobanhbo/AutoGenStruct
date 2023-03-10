@@ -3,16 +3,16 @@ import 'dart:io';
 import 'package:args/args.dart';
 import 'package:auto_gen_struct/constant/app_constant.dart';
 
-class AutoGenStructCLI {
+class AutoGenStruct {
   late ArgParser _argParser;
   late StringBuffer _stringBuffer;
-  AutoGenStructCLI._(this._argParser, this._stringBuffer);
+  AutoGenStruct._(this._argParser, this._stringBuffer);
 
-  factory AutoGenStructCLI() {
+  factory AutoGenStruct() {
     final stringBuffer = StringBuffer();
     final argParser = ArgParser();
 
-    return AutoGenStructCLI._(argParser, stringBuffer);
+    return AutoGenStruct._(argParser, stringBuffer);
   }
 
   void run(List<String> arguments) {
