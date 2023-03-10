@@ -8,3 +8,6 @@ pubspec.lock
 .dart_tool/version
 .idea/libraries/Dart_SDK.xml
 pubspec.lock
+.dart_tool/package_config.json
+.packages
+.dart_tool/package_config_subset
