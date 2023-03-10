@@ -53,7 +53,16 @@ class AutoGenStructCLI {
   }
 
   bool confirmAction() {
-    String content = 'Do you want to continue? [y/n]';
+    String content = '''
+    Select option to generate Project structure:
+    
+    1. Default structure
+    
+    2. Import structure from json string
+    
+    3. Import structure from json file
+    
+    Do you want to continue? [y/n]''';
     _stringBuffer.write(content);
 
     ///Capture a String from the console
