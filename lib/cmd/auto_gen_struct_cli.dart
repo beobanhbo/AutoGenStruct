@@ -27,9 +27,13 @@ class AutoGenStruct {
 
   void _handleArgument(List<String> arguments) {
     final arg = _argParser.parse(arguments);
+    _stringBuffer.writeln('_handleArgument');
+
     if (arg.command != null && arg.command?.name != null) {
       _listenArgument(arg.command!.name!);
     } else {
+      _stringBuffer.writeln('Command not found!');
+
       _exit();
     }
   }
