@@ -4,15 +4,18 @@ version: 0.0.1
 homepage:
 
 environment:
-  sdk: '>=2.19.3 <3.0.0'
+  sdk: '>=2.14.0 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   args: 2.3.1
+  http: ^0.13.5
+flutter:
+  assets:
+    - packages/AutoGenStruct/json/default_struct.json
 
 dev_dependencies:
   flutter_lints: ^1.0.0
-
 executables:
   auto_gen_struct:

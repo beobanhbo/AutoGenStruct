@@ -1,14 +1,12 @@
 
 .dart_tool/package_config.json
-.dart_tool/package_config.json
 .idea/libraries/Dart_Packages.xml
 .packages
 pubspec.lock
 .dart_tool/package_config_subset
 .dart_tool/version
 .idea/libraries/Dart_SDK.xml
-pubspec.lock
-.dart_tool/package_config.json
-.packages
-.dart_tool/package_config_subset
-.dart_tool/package_config_subset
+.dart_tool/pub/bin/auto_gen_struct/auto_gen_struct.dart-2.19.3.snapshot
+.dart_tool/pub/incremental/auto_gen_struct/auto_gen_struct.dart.incremental.dill
+auto_gen_struct.iml
+.dart_tool/pub/bin/auto_gen_struct/auto_gen_struct.dart-2.16.1.snapshot
